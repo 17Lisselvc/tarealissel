@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(253, 233, 209);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(179, 179, 179);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.navigation-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation-menu li {
+    margin-right: 20px;
+}
+
+.navigation-menu li:last-child {
+    margin-right: 0;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: #bd4e4e;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-menu li a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+main {
+    padding: 20px 0;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(179, 179, 179); 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgb(180, 189, 238);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+}
+img {
+    width: 70%;
+    height: auto;
+}

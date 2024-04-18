@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal Académico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+         <center>
+         
+            <h1>Portafolio Personal Académico</h1></center>
+            <nav>
+               <center>
+                <ul>
+                    <button class="button"><a href="acerca.html">Acerca de mí</a></button>
+                    <button class="button"><a href="inicio.html">Conocimientos</a></button>
+                    <button class="button"><a href="contacto.html">Contacto</a></button>
+                </ul>
+               </center>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="profile-section">
+            <div class="profile-image">
+                <img src="qq.jpg" alt="Imagen de Lissel">
+            </div>
+            <div class="profile-info">
+               <center>
+                <h1>Villar Carpio, Lissel Milagros </h1>
+                <p>Este portafolio presenta datos e información sobre mi trayectoria educativa, siendo estudiante del Instituto de Educación Superior Tecnológico "Cañete", con la carrera ARQUITECTURA DE PLATAFORMAS Y SERVICIOS DE TI, tratando de culminar el semestre I Ciclo VI</p>
+               </center>
+          
+            </div>
+        </section>
+       
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Derechos de autor &copy; 2024 Instituto de Educación Superior Tecnológico "Cañete"</p>
+        </div>
+    </footer>
+</body>
+</html>
